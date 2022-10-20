@@ -19,9 +19,10 @@ public class BubbleSort {
                     arr[j + 1] = tmp;
                     flag = true;
                 }
-                if(!flag) {
-                    break;
-                }
+                
+            }
+            if(!flag) {
+                break;
             }
 
         }
